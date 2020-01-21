@@ -33,7 +33,7 @@ class App < Sinatra::Base
     
     case @operation
       when "add"
-      @number1 + @number2
+        @number1 + @number2
 <% when "subtract" %>
 <%= @number1 - @number2 %>
 <% when "multiply" %>
